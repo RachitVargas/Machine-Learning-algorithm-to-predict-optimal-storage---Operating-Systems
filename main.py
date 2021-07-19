@@ -20,7 +20,7 @@ def main():
     
   
     while opcion != 5:
-        #try:
+        try:
             opcion = interfaz.menu()   
         
             if opcion == 1:
@@ -50,8 +50,8 @@ def main():
             else: 
                 print("Opcion invalida. Por favor vuelva a intarlo")
                 
-       # except:
-           # print("Asegurese de haber digitado una opcion correcto")
+        except:
+            print("Asegurese de haber digitado una opcion correcto")
             
 if __name__ == '__main__':
     main()
