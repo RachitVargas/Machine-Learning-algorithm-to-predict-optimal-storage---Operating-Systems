@@ -12,7 +12,7 @@ Debido a situaciones contractuales y de horas extra, el personal puede agregar h
 
 ---
 
-1. Modele matemáticamente cuanta es la cantidad de mínima de memoria necesaria para garantizar que cada día tendrá más memoria de la consumida por los usuarios, es decir siempre crecerá. Asuma que los 7000 megas al día de consumo son FIJOS 
+#### 1. Modele matemáticamente cuanta es la cantidad de mínima de memoria necesaria para garantizar que cada día tendrá más memoria de la consumida por los usuarios, es decir siempre crecerá. Asuma que los 7000 megas al día de consumo son FIJOS 
 
 
 1.1 Se demostró por razonamiento lógico que la cantidad mínima necesaria de memoria para garantizar que el espacio disponible SIEMPRE siga creciendo es de 17,501 megas.
@@ -41,3 +41,20 @@ Debido a situaciones contractuales y de horas extra, el personal puede agregar h
 ![174999](https://user-images.githubusercontent.com/65442367/126081134-044ee9ec-a851-4426-a7a7-41cee4f6d350.png)
 
 #### Por lo tanto, queda demostrado visualmente que la cantidad mínima necesaría para que el almacenamiento siempre crezca es de 17,501 megas
+
+
+
+#### 2. ¿Puede establecer un modelo matemática que determina dicha cantidad en función del consumo diario? (suponiendo que dicho consumo es fijo)
+
+2.1 Con el fin de desarrollar una solución inteligente con reutilización en el futuro, se desarrolló un modelo de Machine Learning (regresión lineal simple) para predecir la variable objetivo (cantidad de memoria mínima para asegurar el crecimeinto constante).
+
+2.2 Entrenamiento del algoritmo:
+
+![test](https://user-images.githubusercontent.com/65442367/126112181-ff4f4f20-4cc9-4f37-8ecd-2855a74a568b.png)
+
+
+2.3 Prueba del algoritmo:
+
+![train](https://user-images.githubusercontent.com/65442367/126112193-f03c85a9-2c44-4905-b05d-90a0a1a19a74.png)
+
+
