@@ -1,4 +1,4 @@
-# Sistemas Operativo Simulacion - 3
+# Sistemas Operativos Simulación - 3
 
 
 ### Contexto:
